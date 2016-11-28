@@ -1,0 +1,148 @@
+/*Estos links son los estilos de letra para los titulos*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*{
+	box-sizing:border-box;
+}
+img{
+	display:block;
+	max-width:100%;
+	margin:auto;
+	width:900px;
+	
+
+}
+p{
+	text-align:center;
+	font-family:arial;
+	color:white;
+}
+/*estilos generales de nuestra framework */
+body{
+margin:0;
+font-family: 'Roboto Condensed', sans-serif;
+background-color:white;
+}
+/*Letra de los titulos centrados con espacio en cada letra*/
+h1,h2,h4,h5,h6{
+font-family: 'Oswald', sans-serif;
+letter-spacing:1.5px;
+text-align:center;
+color:black;
+}
+h3{
+	font-weight:bold;
+	text-align:center;
+	font-family:arial;
+	color:black;
+}
+
+/*Estilos del header o encabezado*/
+.header{
+	height:50px;
+
+}
+.header .contenedor{
+display:flex;
+justify-content:space-between;
+}
+.logo, .icon-menu{
+margin:5px;
+color:#0E6A98;
+
+}
+
+.icon-menu{
+display:block;
+width:40px;
+height:40px;
+font-size:30px;
+background:#0E6A98;
+text-align:center;
+line-height:50px;
+border-radius:5px;
+margin-left:auto;
+color:white;
+cursor:pointer;
+}
+
+/*Estilos del menu desplegable*/
+.nav{
+	position:absolute;
+	top:100px;
+	left:-100%;
+	width:100%;
+	transition:all 0.5s;
+
+	
+}
+.menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.menu__link{
+	display:block;
+	padding:15px;
+	color:white;
+	background:#0E6A98;
+	text-decoration:none;
+}
+.menu__link:hover,.select{
+	background:white;
+	color:black;
+}
+
+.mostrar{
+	left:0;
+}
+
+/*Estilos del Banner o parte superior debajo del menu*/
+.banner{
+	margin-top:-60px;
+	position:relative;
+	z-index:-1000;
+	margin-bottom:20px;
+
+}
+.banner_titulo{
+	text-align:center;
+	font-weight:bold;
+	color:#0E6A98;
+
+}
+
+/*Estilos de las columnas secundarias*/
+.info_columna{
+	background-color:#0E6A98;
+	color:white;
+	padding:15px;
+	margin-bottom:50px;
+}
+
+/*Parte del footer o pie de pagina*/
+.contacto_columna{
+position:relative;
+}
+.contacto_descripcion{
+position:absolute;
+top:0;
+left:0;
+background:rgba(0,0,0,0.2);
+width:100%;
+}
+.contacto_titulo{
+font-size:30px;
+margin:5px;
+
+}
+.footer{
+	color:white;
+	padding:5px;
+	text-align:center;
+}
+.copy{
+	font-size:bold;
+	color:black;
+}
