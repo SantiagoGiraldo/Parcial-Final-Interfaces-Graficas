@@ -5,8 +5,3 @@ btnMenu.addEventListener('click', function (){
 	nav.classList.toggle('mostrar');
 })
 
-var rojo = $('.rojo');
-
-rojo.on('click',function(){
-	$('body').css('background', 'red');
-});
